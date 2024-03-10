@@ -1,0 +1,20 @@
+{
+  "name": "lint-rule-deactivations-tracker",
+  "version": "0.0.1",
+  "description": "Track lint rule deactivations",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava **/*.test.js"
+  },
+  "type": "module",
+  "author": "Yann Bertrand",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^v9.0.0-beta"
+  },
+  "devDependencies": {
+    "ava": "^6.1.2",
+    "eslint-ava-rule-tester": "^5.0.1",
+    "outdent": "^0.8.0"
+  }
+}
